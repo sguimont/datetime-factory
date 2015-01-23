@@ -1,0 +1,27 @@
+{
+  "name": "timekeeper",
+  "main": "timekeeper.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sguimont/timekeeper",
+  "authors": [
+    "Sébastien Guimont"
+  ],
+  "description": "Javascript library to create date and time in a central way.",
+  "keywords": [
+    "test",
+    "factory",
+    "time",
+    "date"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "package.json",
+    "node_modules",
+    "bower_components",
+    "Gruntfile.js",
+    "test.js"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}

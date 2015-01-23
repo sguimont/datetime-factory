@@ -1,0 +1,32 @@
+{
+  "name": "timekeeper",
+  "version": "0.0.1",
+  "description": "Node module to create date and time in a central way.",
+  "keywords": [
+    "test",
+    "factory",
+    "time",
+    "date"
+  ],
+  "author": "Sébastien Guimont <sebastieng@sympatico.ca> (http://sebastienguimont.com/)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sguimont/timekeeper.git"
+  },
+  "bugs": {
+    "email": "sebastieng@sympatico.ca",
+    "url": "https://github.com/sguimont/timekeeper/issues"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.2.1",
+    "grunt-contrib-uglify": "^0.6.0",
+    "mocha": "^1.21.5"
+  },
+  "licence": "MIT"
+}
