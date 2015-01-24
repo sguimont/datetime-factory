@@ -1,5 +1,3 @@
-/**
- * Expose module.
- */
+'use strict';
 
 module.exports = require('./lib/timekeeper');
