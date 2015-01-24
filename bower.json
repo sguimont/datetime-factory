@@ -1,7 +1,7 @@
 {
   "name": "timekeeper",
   "main": "dist/timekeeper.js",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "homepage": "https://github.com/sguimont/timekeeper",
   "authors": [
     "Sébastien Guimont"
