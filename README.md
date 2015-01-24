@@ -24,11 +24,11 @@ var datetimeFactory = require('datetime-factory');
 datetimeFactory.overwriteDate(new Date(2014, 11, 10));
 console.log(datetimeFactory.now()); // Wed Dec 10 2014 00:00:00 GMT-0500 (Eastern Standard Time)
 
-datetimeFactory.reset(); // Put default factory
+datetimeFactory.reset(); // Put back default factory
 
 ```
 
-## Can use other date factory
+## Can use other date like moment library
 
 ```js
 var moment = require('moment');

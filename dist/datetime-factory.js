@@ -15,7 +15,7 @@ var options = {
 };
 
 /**
- * Configure timekeeper.
+ * Configures.
 
  * @param {Object} newOptions
  * @param {Function} [newOptions.factory=new Date()] A function that creates a date time
