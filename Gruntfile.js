@@ -8,7 +8,7 @@ module.exports = function (grunt) {
           sourceMappingURL: 'dist/datetime-factory.min.map'
         },
         files: {
-          'dist/timekeeper.min.js': 'dist/datetime-factory.js'
+          'dist/datetime-factory.min.js': 'dist/datetime-factory.js'
         }
       }
     },

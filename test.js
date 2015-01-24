@@ -22,6 +22,7 @@ describe('Unit', function () {
 
       var now = datetimeFactory.now();
       expect(now).to.equal(date);
+      console.log(now);
     });
 
     it('should not get the overwrite date after calling reset()', function () {
