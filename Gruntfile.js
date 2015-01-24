@@ -4,21 +4,21 @@ module.exports = function (grunt) {
       default: {
         options: {
           preserveComments: 'some',
-          sourceMap: 'dist/timekeeper.min.map',
-          sourceMappingURL: 'dist/timekeeper.min.map'
+          sourceMap: 'dist/datetime-factory.min.map',
+          sourceMappingURL: 'dist/datetime-factory.min.map'
         },
         files: {
-          'dist/timekeeper.min.js': 'dist/timekeeper.js'
+          'dist/timekeeper.min.js': 'dist/datetime-factory.js'
         }
       }
     },
     browserify: {
       main: {
         src: 'index.js',
-        dest: 'dist/timekeeper.js',
+        dest: 'dist/datetime-factory.js',
         options: {
           browserifyOptions: {
-            standalone: 'timekeeper'
+            standalone: 'datetimeFactory'
           }
         }
       }

@@ -2,13 +2,13 @@
 
 var expect = require('chai').expect;
 var moment = require('moment');
-var timekeeper = require('./index');
+var datetimeFactory = require('./index');
 
 describe('Unit', function () {
 
   describe('#now', function () {
     it('should get current date', function () {
-      var now = timekeeper.now();
+      var now = datetimeFactory.now();
       expect(now).to.exist();
       expect(now).to.be.an.instanceof(Date);
     });
@@ -18,16 +18,16 @@ describe('Unit', function () {
     var date = new Date(2014, 11, 10);
 
     it('should get the overwrite date', function () {
-      timekeeper.overwriteDate(date);
+      datetimeFactory.overwriteDate(date);
 
-      var now = timekeeper.now();
+      var now = datetimeFactory.now();
       expect(now).to.equal(date);
     });
 
     it('should not get the overwrite date after calling reset()', function () {
-      timekeeper.reset();
+      datetimeFactory.reset();
 
-      var now = timekeeper.now();
+      var now = datetimeFactory.now();
       expect(now).not.to.equal(date);
     });
   });
@@ -35,13 +35,13 @@ describe('Unit', function () {
 
   describe('#configure with moment library', function () {
     it('should get current date time as a moment object', function () {
-      timekeeper.configure({
+      datetimeFactory.configure({
         factory: function () {
           return moment();
         }
       });
 
-      var now = timekeeper.now();
+      var now = datetimeFactory.now();
       expect(now).to.exist();
       expect(now.toDate).to.exist();
     });

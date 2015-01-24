@@ -1,6 +1,6 @@
 {
-  "name": "timekeeper",
-  "main": "dist/timekeeper.js",
+  "name": "datetime-factory",
+  "main": "dist/datetime-factory.js",
   "version": "0.1.0",
   "homepage": "https://github.com/sguimont/timekeeper",
   "authors": [
