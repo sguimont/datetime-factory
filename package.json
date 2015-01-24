@@ -1,6 +1,6 @@
 {
   "name": "datetime-factory",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node module to create date and time in a central way.",
   "keywords": [
     "test",

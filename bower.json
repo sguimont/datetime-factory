@@ -1,7 +1,7 @@
 {
   "name": "datetime-factory",
   "main": "dist/datetime-factory.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/sguimont/datetime-factory",
   "authors": [
     "Sébastien Guimont"
