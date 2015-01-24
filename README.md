@@ -43,3 +43,7 @@ datetimeFactory.configure({
 console.log(datetimeFactory.now());
 
 ```
+
+## License
+
+MIT
